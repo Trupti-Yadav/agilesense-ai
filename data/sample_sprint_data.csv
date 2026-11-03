@@ -1,0 +1,11 @@
+sprint_id,sprint_name,start_date,end_date,story_id,story_title,story_points,status,priority,assignee,dependency,blocked_reason
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-141,Create payment summary endpoint,8,Done,High,Team A,, 
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-142,Integrate Payment API,8,Blocked,High,Team B,External Payment API,Waiting for API credentials
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-143,Add checkout validation,5,In Progress,High,Team A,US-142, 
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-144,Update confirmation email,3,Done,Medium,Team C,, 
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-145,Add order history filter,5,Done,Medium,Team A,, 
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-146,Improve error messages,3,To Do,Low,Team C,, 
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-147,Add retry handling,5,In Progress,High,Team B,US-142, 
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-148,Update payment documentation,2,Blocked,Medium,Team B,External Payment API,Waiting for API credentials
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-149,Add audit event,3,Done,Medium,Team A,, 
+SPRINT-24,Sprint 24,2026-10-05,2026-10-16,US-150,Add payment timeout handling,8,Blocked,High,Team B,External Payment API,Waiting for API credentials
